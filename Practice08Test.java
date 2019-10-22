@@ -58,7 +58,7 @@ public class Practice08Test {
 	
 			String delims = " .";
 			StringTokenizer st = new StringTokenizer(allKeys, delims);
-			
+
 			while(st.hasMoreElements()) {
 				String token = st.nextToken();
 				bst.insert(token);
