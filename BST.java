@@ -17,14 +17,6 @@ public class BST<T>{
 		} else {
 			return find(node.left, item);
 		}
-
-		// if(node.data.compareTo(item) < 0) {
-		// 	return find(node.left, item);
-		// } else if(node.data.compareTo(item) > 0) {
-		// 	return find(node.right, item);
-		// } else {
-		// 	return true;
-		// }
 	}
 
 	public void insert(Comparable item) {
